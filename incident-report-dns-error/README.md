@@ -1,16 +1,16 @@
-# Incident Report: DNS Protocol Error (Port 53 Unreachable)
+# DNS Protocol Incident Report
 
-This folder contains a cybersecurity incident analysis completed as part of the **Google Cybersecurity Certificate** on Coursera.
+This folder contains the incident report for a DNS-related issue identified during the Google Cybersecurity Certificate course.
 
-## 🧠 Scenario
+## Scenario
 
-Customers were unable to access the website `yummyrecipesforme.com` and encountered a “destination port unreachable” error. Using `tcpdump`, I investigated the issue and found ICMP packets indicating a DNS query failure on UDP port 53.
+Users reported that the domain `www.yummyrecipesforme.com` was inaccessible. An analysis using `tcpdump` revealed ICMP packets indicating that DNS requests were not reaching port 53 of the DNS server. This prevented the domain name from being resolved to an IP address.
 
-## 📄 Files
+## Contents
 
-- `incident-report.pdf`: My written incident report in response to the log analysis.
-- `tcpdump-log.txt`: Simulated output from the `tcpdump` network analyzer.
-- `screenshot.png`: Screenshot of the error during the incident simulation.
+- `report.md`: A detailed incident report documenting the problem and analysis.
+- `logs/tcpdump-log.txt`: Packet capture showing the ICMP error.
+
 
 ## ✅ Skills Demonstrated
 
