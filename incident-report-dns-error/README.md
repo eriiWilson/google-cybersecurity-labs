@@ -1,16 +1,15 @@
-# DNS Protocol Incident Report
+# Incident Report: DNS Redirection & Malware Injection
 
-This folder contains the incident report for a DNS-related issue identified during the Google Cybersecurity Certificate course.
+This folder contains the incident analysis of a real-world simulation from the Google Cybersecurity Certificate training.
 
-## Scenario
+- **Scenario**: DNS poisoning and brute-force admin panel access.
+- **Tools used**: tcpdump, static code analysis.
+- **Protocols involved**: DNS, HTTP, TCP.
+- **Skills demonstrated**: Network traffic analysis, incident documentation, remediation proposal.
 
-Users reported that the domain `www.yummyrecipesforme.com` was inaccessible. An analysis using `tcpdump` revealed ICMP packets indicating that DNS requests were not reaching port 53 of the DNS server. This prevented the domain name from being resolved to an IP address.
-
-## Contents
-
-- `report.md`: A detailed incident report documenting the problem and analysis.
-- `logs/tcpdump-log.txt`: Packet capture showing the ICMP error.
-
+## Files
+- `incident_log.txt`: Captured network traffic showing the DNS request and HTTP redirection.
+- `incident_report.md`: Full report with root cause analysis and remediation.
 
 ## ✅ Skills Demonstrated
 
