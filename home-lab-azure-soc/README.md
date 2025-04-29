@@ -32,8 +32,7 @@ To build a controlled vulnerable environment that simulates real-world attacks a
 - **Public IP**: Dynamic
 - **Internal Firewall**: Disabled
 - **NSG Rules**: Open to any traffic (Any → Any)
-- **Username**: `labuser`
-- **Password**: `@labuser@365`
+
 
 ### 5. VM Network Configuration
 - Associated the VM with the `Vnet-soc-lab` and `default` subnet.
